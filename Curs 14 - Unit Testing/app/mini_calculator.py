@@ -1,0 +1,17 @@
+class MiniCalculator:
+
+    def __init__(self,a:int,b:int):
+        self.a = a
+        self.b = b
+
+    def adunare(self):
+        return  self.a + self.b
+
+    def scadere(self):
+        return  self.a - self.b
+
+    def inmultire(self):
+        return self.a * self.b
+
+    def impartire(self):
+        return  int(self.a) / int(self.b)
